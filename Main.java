@@ -4,11 +4,11 @@
 // сделайте интерфейс, который и используйте в своей программе. Пример работы с
 // интерфейсом Serialazable можно найти в материалах к уроку.
 // Класс, представляющий человека
-import java.util.List;
+import java.io.IOException;
 
 // Главный класс с точкой входа
 public class Main {
-    public static <Person> void main(String[] args) {
+    public static void main(String[] args) {
         FamilyTree familyTree = new FamilyTree();
 
     // Создаем людей
